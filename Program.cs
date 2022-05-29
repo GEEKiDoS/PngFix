@@ -59,6 +59,7 @@ static (uint, uint, int) DetectPNGSize(string fileName)
         }
     }
 
+    // ? PNG without IHDR????
     return (0, 0, 0);
 }
 
